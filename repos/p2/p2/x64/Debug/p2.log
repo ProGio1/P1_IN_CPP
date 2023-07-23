@@ -1,0 +1,5 @@
+﻿  p2.cpp
+A:\Users\GSI\source\repos\p2\p2\p2.cpp(6,29): error C2059: syntax error: ';'
+A:\Users\GSI\source\repos\p2\p2\p2.cpp(7,2): error C2059: syntax error: 'return'
+A:\Users\GSI\source\repos\p2\p2\p2.cpp(9,1): error C2059: syntax error: '}'
+A:\Users\GSI\source\repos\p2\p2\p2.cpp(9,1): error C2143: syntax error: missing ';' before '}'
