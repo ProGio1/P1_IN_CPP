@@ -1,0 +1,203 @@
+#07 half number .
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+
+	short int  NumberUser;
+	cout << "please enter your the number  \n";
+	cin >> NumberUser;
+	cout << "half your the number is :" << NumberUser / 2 << endl;
+
+	return 1; 
+
+}
+________________________________________________________________________________________________________
+
+#09 sum of 3 number .
+
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+
+	short int  NumberUser1 , NumberUser2 , NumberUser3 ;
+
+	cout << "please enter your the number 1  \n";
+	cin >> NumberUser1;
+	cout << "please enter your the number 2  \n";
+	cin >> NumberUser2;
+	cout << "please enter your the number 3  \n";
+	cin >> NumberUser3;
+
+	cout << "half your the number is :" << NumberUser1 + NumberUser2 + NumberUser3 << endl;
+
+	return 1; 
+
+}
+
+________________________________________________________________________________________________________
+
+#10 average of markes .
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+	float mark1, mark2, mark3;
+
+	cout << "please enter your the mark 1  \n";
+	cin >> mark1 ;
+	cout << "please enter your the mark 2  \n";
+	cin >> mark2 ;
+	cout << "please enter your the mark 3  \n";
+	cin >> mark3 ;
+
+	float average = (mark1 + mark2 + mark3) / 3;
+
+	cout << "your the average is : " << average << endl;
+
+	return 1; 
+
+
+}
+________________________________________________________________________________________________________
+
+#14 swap number .
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+	short int  NumberUser1, NumberUser2, swap;
+
+	cout << "please enter your the number 1  \n";
+	cin >> NumberUser1 ;
+	cout << "please enter your the number 2  \n";
+	cin >> NumberUser2 ;
+
+	cout << NumberUser1 << endl;
+	cout << NumberUser2 << endl;
+
+	cout << "the swap" << endl;
+	swap = NumberUser1; 
+	NumberUser1 = NumberUser2;
+	NumberUser2 = swap;
+
+	cout << NumberUser1 << endl;
+	cout << NumberUser2 << endl;
+
+	return 1; 
+}
+________________________________________________________________________________________________________
+
+#15 - Rectangle Area .
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	short int  length, width, area;
+
+	cout << "please enter the length : \n";
+	cin >> length ;  
+	cout << "please enter the width : \n";
+	cin >> width ;
+
+	area = length * width;
+	cout << "the area is : " << area << " cm" << endl;
+	
+	return 1; 
+}
+
+
+________________________________________________________________________________________________________
+
+#17 - Triangle Area .
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	short int  base, height, area;
+
+	cout << "please enter the base : \n";
+	cin >> base;
+	cout << "please enter the height : \n";
+	cin >> height;
+
+	area = (height * base) /2 ;
+	cout << "the area is : " << area << " cm" << endl;
+	
+	return 1; 
+}
+________________________________________________________________________________________________________
+
+#19 - Circle Area Through Diameter .
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	short int  diameter, area;
+
+	cout << "please enter the diameter : \n";
+	cin >> diameter;
+
+	area = (3,14 * diameter ^ 2) / 4;
+	cout << "the area is : " << area << " cm" << endl;
+	
+	return 1; 
+}
+
+________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
